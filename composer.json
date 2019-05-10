@@ -1,0 +1,31 @@
+{
+    "name": "orh/laravel-sdsl",
+    "description": "Set laravel schema default string length.",
+    "keywords": [
+        "schema",
+        "laravel",
+        "PHP"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "欧荣凰",
+            "email": "512574561@qq.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": ">=5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Orh\\LaravelSdsl\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Orh\\LaravelSdsl\\ServiceProvider"
+            ]
+        }
+    }
+}
